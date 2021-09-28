@@ -2,11 +2,16 @@ import React from 'react';
 import Navigationbar from './Navigationbar';
 
 class LandingPage extends React.Component {
-   render() {
-      return (
-        <Navigationbar />
-      )
+   constructor(props) {
+     super(props);
    }
-}
+   render() {
+     return (
+       <div>
+         <Navigationbar />
+       </div>
+     );
+   }
+ };
 
-export default LandingPage;
+ export default LandingPage;

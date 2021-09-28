@@ -1,10 +1,14 @@
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import React from 'react';
 
-class Navigationbar extends React.Component {
-    render() {
-        return (
-          <Navbar bg="light" expand="lg">
+ class Navigationbar extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -23,8 +27,9 @@ class Navigationbar extends React.Component {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        )
-     }
- }
- 
+      </div>
+    );
+  }
+};
+
  export default Navigationbar;
