@@ -2,9 +2,7 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import React from 'react';
 
  class Navigationbar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
     return (
       <div>
