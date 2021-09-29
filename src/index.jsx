@@ -9,8 +9,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <Router>
-    <App />
-    <LandingPage />
+    <App/>
   </Router>,
   document.getElementById('root')
 );
