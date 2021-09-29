@@ -4,9 +4,7 @@ class Dashboard extends React.Component {
 
     render() {
         return (
-            <div>
-                This is the dashboard
-            </div>
+            <div>I am a dashboard</div>
         );
     }
 };

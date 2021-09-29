@@ -1,5 +1,7 @@
 import React from 'react';
 import Navigationbar from '../components/Navigationbar';
+import DashBoard from '../components/Dashboard';
+import Footer from '../components/Footer';
 
 class Blog extends React.Component {
 
@@ -7,7 +9,9 @@ class Blog extends React.Component {
      return (
        <div>
          <Navigationbar />
+         <DashBoard/>
          I am a Blog
+         <Footer/>
        </div>
      );
    }

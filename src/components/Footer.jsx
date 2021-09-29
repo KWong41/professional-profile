@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div>
-                Project developed by Kevin {"\n"}
+                Project developed by Kevin
                 Github.com/KWong41
             </div>
         );
