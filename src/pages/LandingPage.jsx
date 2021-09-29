@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigationbar from './Navigationbar';
+import Navigationbar from '../components/Navigationbar';
 
 class LandingPage extends React.Component {
 

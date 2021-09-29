@@ -31,7 +31,7 @@ class Navigationbar extends React.Component {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-      </div>
+        </div>
     );
   }
 };
